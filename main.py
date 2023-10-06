@@ -14,6 +14,6 @@ paginaLida = dadosPDF.pages[numeroPagina]
 
 textoPagina = paginaLida.extract_text()
 
-print(textoPagina)
 
+print(textoPagina)
 pdfArquivo.close()
